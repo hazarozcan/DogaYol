@@ -6,21 +6,39 @@
     padding: 0 60px;
     display: flex;
     align-items: center;
-    /* Github Test */
-
-
 }
 
 .phrase {
     color: white;
 }
-.phrase .phrase-top{
+
+.phrase-top {
     letter-spacing: 4px;
     font-size: 18px;
     margin-bottom: 10px;
 }
 
-.phrase h1{
+.phrase h1 {
     font-size: 56px;
-    line height: 1.1; /* Satır aralarındaki boşluğu ayarliyoruz */
+    line-height: 1.1;
+    /* Satır aralarındaki boşluğu ayarliyoruz */
+    margin-top: 0px;
+}
+
+.phrase-mid {
+    font-size: 18px;
+    max-width: 320px;
+}
+
+.primary-btn {
+    background-color: #367B43;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.primary-btn:hover {
+    color: #367B43;
 }
