@@ -1,0 +1,25 @@
+.hero {
+    height: 600px;
+    background-image: url(../pictures/Dağ\ Gölüne\ Bakan\ Gezgin.png);
+    background-size: cover;
+    background-position: center;
+    padding: 0 60px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.phrase {
+    color: white;
+}
+.phrase .phrase-top{
+    letter-spacing: 4px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.phrase h1{
+    font-size: 56px;
+    line height: 1.1; /* Satır aralarındaki boşluğu ayarliyoruz */
+}

@@ -1,0 +1,122 @@
+.navbar {
+    padding: 0 60px;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.nav_right {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.nav_right .kesfet-btn {
+    background-color: #367B43;
+    padding: 10px 35px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* buton üstüne gelince yazının yeşile dönmesini sağladık */
+.nav_right .kesfet-btn:hover {
+    color: #367B43;
+}
+
+.hamburger:focus-visible {
+    outline-color: #367B43;
+    outline-style: solid;
+    outline-width: 2px;
+}
+
+.logo {
+    flex: 1;
+}
+
+.logo img {
+    width: 150px;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex: 1;
+    min-width: 0;
+}
+
+.menu a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    border: none;
+    background-color: transparent;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.hamburger span {
+    display: block;
+    width: 30px;
+    height: 3px;
+    background-color: #367B43;
+}
+
+
+
+
+/*
+section {
+
+    margin-left: 40px;
+    background-image: url("../pictures/Dağ Gölüne Bakan Gezgin.png");
+    color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+
+    h3 {
+        letter-spacing: 3px;
+    }
+
+}
+
+#kesfet {
+
+
+
+    border-radius: 100px;
+    border-style: none;
+
+
+}
+
+.btn {
+
+
+    padding: 10px 36px;
+    background-color: green;
+    border-radius: 10px;
+    border-style: none;
+
+}
+
+.btn-primary {
+
+    background-color: rgb(47, 150, 47);
+    color: white;
+    font-family: "Arial";
+
+
+
+}
+    */

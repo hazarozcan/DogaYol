@@ -1,0 +1,28 @@
+@media (max-width:900px) {
+    
+    .menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        flex-direction: column;
+        background-color: white;
+        gap: 20px;
+        padding: 20px 20px;
+        box-sizing: border-box;  /* kutunun kenarları ile birlikte (PADDİNG) değerleriyle beraber hesaplanmasını sağlar ve ekran dışına taşmasını engeller. */
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav_right .kesfet-btn {
+        display: none;
+    }
+
+    .navbar{
+        padding: 0 20px;
+    }
+
+}
