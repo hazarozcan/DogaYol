@@ -24,7 +24,7 @@
 
 /* buton üstüne gelince yazının yeşile dönmesini sağladık */
 .kesfet-btn:hover {
-    color: black;
+    color: #367B43;
     background-color: wheat;
 }
 

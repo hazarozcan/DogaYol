@@ -29,6 +29,7 @@
 .phrase-mid {
     font-size: 18px;
     max-width: 320px;
+    margin-bottom: 30px;
 }
 
 .primary-btn {
@@ -36,12 +37,13 @@
     color: white;
     padding: 10px 35px;
     border-radius: 10px;
-    border: transparent;
+    border: 1px solid transparent;
     cursor: pointer;
+    margin-right: 7.5px;
 }
 
 .primary-btn:hover {
-    color: black;
+    color: #367B43;
     background-color: wheat;
 }
 
@@ -51,9 +53,14 @@
     padding: 10px 35px;
     border-radius: 10px;
     cursor: pointer;
+    border: 1px solid white;
+    margin-left: 7.5px;
+    
+
+    
 }
 
 .secondary-btn:hover {
-    color: black;
+    color: #367B43;
     background-color: wheat;
 }
