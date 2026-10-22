@@ -24,7 +24,8 @@
 
 /* buton üstüne gelince yazının yeşile dönmesini sağladık */
 .kesfet-btn:hover {
-    color: #367B43;
+    color: black;
+    background-color: wheat;
 }
 
 .hamburger:focus-visible {

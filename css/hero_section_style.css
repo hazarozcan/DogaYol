@@ -40,5 +40,27 @@
 }
 
 .primary-btn:hover {
-    color: #367B43;
+    color: black;
+    background-color: wheat;
+}
+
+.secondary-btn {
+    background-color: transparent;
+    color: white;
+    padding: 10px 35px;
+    border-radius: 10px;
+    border-color: white;
+    cursor: pointer;
+    /* BURADA KALDIK MEVCUT SORUN :
+    MEVCUT BUTONUN BÜÜYÜKLÜĞÜ borderline ile birlikte 
+    hesaba aalınmadığı için
+    borderline eklenince yanındaki butondan daha geniş durdu bunu çöz */
+
+
+}
+
+.secondary-btn:hover {
+    color:black;
+    background-color: wheat;
+
 }
