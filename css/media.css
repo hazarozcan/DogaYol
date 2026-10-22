@@ -1,5 +1,5 @@
 @media (max-width:900px) {
-    
+
     .menu {
         display: none;
         position: absolute;
@@ -10,7 +10,8 @@
         background-color: white;
         gap: 20px;
         padding: 20px 20px;
-        box-sizing: border-box;  /* kutunun kenarları ile birlikte (PADDİNG) değerleriyle beraber hesaplanmasını sağlar ve ekran dışına taşmasını engeller. */
+        box-sizing: border-box;
+        /* kutunun kenarları ile birlikte (PADDİNG) değerleriyle beraber hesaplanmasını sağlar ve ekran dışına taşmasını engeller. */
     }
 
     .hamburger {
@@ -21,8 +22,28 @@
         display: none;
     }
 
-    .navbar{
+    .navbar {
         padding: 0 20px;
     }
+
+    .hero {
+        padding: 0px 20px;
+    }
+
+    .phrase h1 {
+        font-size: 36px;
+
+    }
+    .phrase-mid{
+        font-size: 16px;
+    }
+    .hero-buttons{
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    .hero-buttons button{
+        margin: 0;
 
 }
