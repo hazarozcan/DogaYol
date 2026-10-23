@@ -1,9 +1,25 @@
 .about {
     display: flex;
-    padding: 20px 60px;
+    padding: 40px 60px;
     font-family: Arial, sans-serif;
     align-items: center;
-    
+    gap: 40px;
+
+}
+
+.about-body {
+    flex: 1;
+}
+
+.about-image {
+    flex: 1;
+}
+
+.about-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px;
+
 }
 
 
@@ -34,9 +50,8 @@
     color: #367B43;
     background-color: wheat;
 }
-.about-phrase{
+
+.about-phrase {
     line-height: 1.3;
-}
-.about-image{
-    padding-left: 500px;
+    max-width: 500px;
 }
