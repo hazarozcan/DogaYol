@@ -27,7 +27,8 @@
     }
 
     .hero {
-        padding: 0px 20px;
+        padding: 60px 20px;
+        height: auto;
     }
 
     .phrase h1 {
