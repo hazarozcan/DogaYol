@@ -1,0 +1,42 @@
+.about {
+    display: flex;
+    padding: 20px 60px;
+    font-family: Arial, sans-serif;
+    align-items: center;
+    
+}
+
+
+.about-top {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    letter-spacing: 2px;
+}
+
+.about-top span {
+    display: block;
+    height: 3px;
+    width: 50px;
+    background-color: green;
+}
+
+.about-button {
+    background-color: #367B43;
+    padding: 10px 35px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.about-button:hover {
+    color: #367B43;
+    background-color: wheat;
+}
+.about-phrase{
+    line-height: 1.3;
+}
+.about-image{
+    padding-left: 500px;
+}
