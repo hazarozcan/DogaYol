@@ -1,0 +1,45 @@
+.services {
+    display: flex;
+    flex-direction: column;
+
+
+    padding: 20px 60px;
+    background-color: rgba(184, 182, 182, 0.144);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.services-cards {
+    display: flex;
+    width: 1200px;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: white;
+    max-width: 300px;
+}
+
+.services-bslk1 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    letter-spacing: 3px;
+}
+
+.services-bslk1 span {
+    display: block;
+    height: 2px;
+    width: 50px;
+    background-color: #367B43;
+}
+
+.services-bslk2 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+
+
+
+
+  
