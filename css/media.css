@@ -50,5 +50,12 @@
 
     .about{
         flex-direction: column;
+        padding: 40px 20px;
+    }
+    .about-body h2{
+        font-size: 32px;
+    }
+    .about-top{
+        font-size: 13px;
     }
 }
