@@ -13,24 +13,19 @@
         box-sizing: border-box;
         /* kutunun kenarları ile birlikte (PADDİNG) değerleriyle beraber hesaplanmasını sağlar ve ekran dışına taşmasını engeller. */
     }
-
     .hamburger {
         display: flex;
     }
-
     .kesfet-btn {
         display: none;
     }
-
     .navbar {
         padding: 0 20px;
     }
-
     .hero {
         padding: 60px 20px;
         height: auto;
     }
-
     .phrase h1 {
         font-size: 36px;
 
@@ -47,7 +42,6 @@
     .hero-buttons button{
         margin: 0;
     }
-
     .about{
         flex-direction: column;
         padding: 40px 20px;
@@ -56,6 +50,19 @@
         font-size: 32px;
     }
     .about-top{
+        font-size: 13px;
+    }
+}
+@media(max-width:800px){
+    .services-cards{
+        flex-direction: column;
+        padding-top: 20px;       
+    }
+    .services-bslk1 {
+        font-size: 15px;
+        
+    }
+    .services-bslk1{
         font-size: 13px;
     }
 }
