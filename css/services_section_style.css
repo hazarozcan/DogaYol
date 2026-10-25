@@ -10,19 +10,26 @@
 
 .services-cards {
     display: flex;
-    width: 100%;
     gap: 20px;
 }
 
 .card {
     display: grid;
-    grid-template-columns: 100px 1fr;
+    grid-template-columns: 80px 1fr;
     background-color: white;
     column-gap: 15px;
     row-gap: 5px;
     flex: 1;
     padding: 20px;
-
+    align-items: center;
+    border-radius: 10px;
+   
+}
+.card-bslk{
+    font-size: 20px;
+    font-weight: 750;
+    margin-bottom: 10px;
+   
 }
 
 .services-bslk1 {
@@ -44,8 +51,8 @@
     margin: 0px;
 }
 .card img{
-    width: 100px;
-    grid-row: span 2;
+    width: 80px;
+    height: auto;
 }
 .card p{
     margin: 0;
