@@ -13,6 +13,8 @@
 .route-bot {
     display: flex;
     gap: 30px;
+    flex: 1;
+    min-width: 0;
 }
 
 .top-right {
@@ -63,7 +65,7 @@
     font-weight: 500;
 }
 
-.route-bot img {
+.route-card img {
     border-radius: 10px;
     width: 100%;
     height: auto;
@@ -73,25 +75,61 @@
 .route-card {
     background-color: rgba(128, 128, 128, 0.055);
     border-radius: 10px;
+    flex: 1;
+    min-width: 0;
 
     .yer {
         font-weight: 700;
         padding-left: 20px;
+        display: flex;
+        align-items: center;
 
-
-    }
-
-    .şehir {
-
-
-        p {
-            padding-left: 20px;
+        &:hover::after {
+            border: 2px solid black;
+            border-radius: 12px;
+            cursor: pointer;
 
         }
 
+        &::after {
+            content: "\2192";
+            font-size: 30px;
+            color: #367B43;
+            margin-left: auto;
+            padding-right: 10px;
+            padding-left: 10px;
+            border: 2.5px solid #367B43;
+            border-radius: 12px;
+            
+
+        }
+
+    }
+}
+
+.şehir {
+
+
+    p {
+        padding-left: 20px;
+
+        &::before {
+            content: "";
+            background-image: url("../pictures/location.svg");
+            background-size: contain;
+            background-repeat: no-repeat;
+            display: inline-block;
+            width: 14px;
+            height: 14px;
+            vertical-align: -2px;
+
+
+        }
 
     }
 
 
-
 }
+
+
+

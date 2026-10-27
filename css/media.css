@@ -13,58 +13,122 @@
         box-sizing: border-box;
         /* kutunun kenarları ile birlikte (PADDİNG) değerleriyle beraber hesaplanmasını sağlar ve ekran dışına taşmasını engeller. */
     }
+
     .hamburger {
         display: flex;
     }
+
     .kesfet-btn {
         display: none;
     }
+
     .navbar {
         padding: 0 20px;
     }
+
     .hero {
         padding: 60px 20px;
         height: auto;
     }
+
     .phrase h1 {
         font-size: 36px;
 
     }
-    .phrase-mid{
+
+    .phrase-mid {
         font-size: 16px;
     }
-    .hero-buttons{
-        display:flex;
+
+    .hero-buttons {
+        display: flex;
         flex-direction: column;
         align-items: flex-start;
         gap: 15px;
     }
-    .hero-buttons button{
+
+    .hero-buttons button {
         margin: 0;
     }
-    .about{
+
+    .about {
         flex-direction: column;
         padding: 40px 20px;
     }
-    .about-body h2{
+
+    .about-body h2 {
         font-size: 32px;
     }
-    .about-top{
+
+    .about-top {
         font-size: 13px;
+    }
+
+    .route-bot {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+
     }
 }
-@media(max-width:800px){
-    .services-cards{
+
+@media(max-width:800px) {
+    .services-cards {
         flex-direction: column;
-        padding-top: 20px;       
+        padding-top: 20px;
     }
-    .services-bslk1{
+
+    .services-bslk1 {
         font-size: 13px;
     }
-    .services{
+
+    .services {
         padding: 20px 20px;
     }
-    .card{
+
+    .card {
         padding: 15px 20px;
     }
+
+}
+
+@media (max-width:600px) {
+    .route-bot {
+        grid-template-columns: minmax(0, 1fr);
+    }
+    .route-top{
+        flex-direction: column;
+        .top-left-up span{
+            width: 20px;
+        }
+        .top-left-up p{
+            letter-spacing: 2px;
+            font-size: 15px;
+        }
+        .top-left-bot{
+            font-size: 24px;
+        }
+        .top-right {
+            margin-bottom: 5px;
+            border: 1px solid #367B43;
+            border-radius: 10px;
+            padding: 3px 5px;
+            a{
+                font-size: 15px;
+            }
+        }
+    }
+
+    .route {
+        padding: 20px 20px;
+    }
+
+    .top-left-up span {
+        height: 2px;
+        width: 25px;
+
+    }
+
+
+
+
 }
