@@ -1,9 +1,142 @@
-.footer-1 img{
-    width: 200px;
+.footer {
+    background-color: #191F25;
+    padding: 0 60px;
+    color: rgba(255, 255, 255, 0.801);
+    font-family: Arial, Helvetica, sans-serif;
+
+    .row-1 {
+        display: flex;
+        justify-content: space-between;
+
+        .footer-1 {
+            margin-top: 10px;
+
+            img {
+                width: 120px;
+                height: auto;
+            }
+
+            p {
+                margin-top: 0%;
+                font-size: 16px;
+                color: #B8BDC2;
+            }
+
+        }
+
+        .footer-2 {
+            display: flex;
+            flex-direction: column;
+            font-size: 16px;
+            line-height: 30px;
+
+
+            .head {
+                font-weight: 550;
+            }
+
+            a {
+                text-decoration: none;
+                color: #B8BDC2;
+                width: max-content;
+                height: max-content;
+            }
+        }
+
+        .footer-3 {
+
+            #icons {
+                display: flex;
+                gap: 15px;
+                align-items: center;
+            }
+
+
+
+
+
+        }
+
+
+
+        .footer-4 {
+            .panel {
+                display: flex;
+                align-items: center;
+                gap: 0;
+
+                p {
+                    color: #B8BDC2;
+                }
+
+                input {
+                    border-radius: 8px 0 0 8px;
+                    padding: 8px 8px;
+                    border-color: rgba(255, 255, 255, 0.801);
+                    border-style: groove;
+                    width: 13rem;
+                }
+
+                button {
+                    border-radius: 0 8px 8px 0;
+                    padding: 8px 8px;
+                    background-color: #367B43;
+                    color: rgba(255, 255, 255, 0.801)A;
+                    border-style: hidden;
+                    border-color: #367B43;
+                    height: 35px;
+                    color: white;
+
+                    &:hover {
+                        cursor: pointer;
+
+                    }
+
+                }
+
+
+            }
+
+        }
+    }
 }
 
+.row-2 {
+    display: block;
+    height: 2px;
+    width: 1785px;
+    background-color: gray;
+}
 
-.footer{
+.row-3 {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 13px;
+
+    .row-3-right {
+        display: flex;
+        align-items: center;
+
+        span {
+            width: 2px;
+            height: 20px;
+            background-color: gray;
+            margin: 5px 10px;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: #367B43;
+        }
+    }
+
+
+}
+
+.head {
+    color: white;
+    font-weight: 550;
 
 }
