@@ -9,7 +9,6 @@
         justify-content: space-between;
 
         .footer-1 {
-            margin-top: 10px;
 
             img {
                 width: 120px;
@@ -74,7 +73,7 @@
                     padding: 8px 8px;
                     border-color: rgba(255, 255, 255, 0.801);
                     border-style: groove;
-                    width: 13rem;
+                    width: auto;
                 }
 
                 button {
@@ -86,6 +85,7 @@
                     border-color: #367B43;
                     height: 35px;
                     color: white;
+                    width: auto;
 
                     &:hover {
                         cursor: pointer;
@@ -104,7 +104,7 @@
 .row-2 {
     display: block;
     height: 2px;
-    width: 1785px;
+    width: auto;
     background-color: gray;
 }
 
