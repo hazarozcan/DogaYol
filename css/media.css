@@ -151,18 +151,12 @@
             .footer-2 {
                 line-height: 20px;
             }
+            .footer-4{
+                grid-column: 1 / -1;
+            }
 
 
         }
-        .footer-4 .panel{
-            max-width: auto;
-        }
-
-
-
-
     }
-
-
 }
 
