@@ -33,6 +33,7 @@
 
             .head {
                 font-weight: 550;
+                margin-bottom: 5px;
             }
 
             a {
@@ -81,7 +82,7 @@
                     border-radius: 0 8px 8px 0;
                     padding: 8px 8px;
                     background-color: #367B43;
-                    color: rgba(255, 255, 255, 0.801)A;
+                    color: rgba(255, 255, 255, 0.801);
                     border-style: hidden;
                     border-color: #367B43;
                     height: 35px;
